@@ -1,0 +1,18 @@
+{
+    "indexes": [
+        {
+            "v": {
+                "$numberInt": "2"
+            },
+            "key": {
+                "_id": {
+                    "$numberInt": "1"
+                }
+            },
+            "name": "_id_"
+        }
+    ],
+    "uuid": "ed9157c6a83f4abea56227d17aa1db67",
+    "collectionName": "Asignar_Cita",
+    "type": "collection"
+}
