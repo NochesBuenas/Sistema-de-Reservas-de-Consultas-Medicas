@@ -48,23 +48,6 @@ Editar
 python -m venv .venv
 .venv\Scripts\activate
 
-# En macOS/Linux
-python3 -m venv .venv
-source .venv/bin/activate
-📦 3. Instalar dependencias
-sh
-Copiar
-Editar
-pip install -r requirements.txt
-🎯 Configuración de la Base de Datos
-🔹 Conexión con MySQL (HeidiSQL)
-Abre HeidiSQL y crea una base de datos llamada db_citas_medicas.
-
-En database.py, configura los datos de conexión:
-
-python
-Copiar
-Editar
 import mysql.connector
 
 def dbConnection():
@@ -127,25 +110,7 @@ python app.py
 Luego abre tu navegador y ve a:
 🔗 http://127.0.0.1:5000/
 
-📌 Diferencias entre MySQL y MongoDB en este Proyecto
-Característica	MySQL (HeidiSQL)	MongoDB
-Tipo de base de datos	Relacional (SQL)	NoSQL (Documentos)
-Estructura de datos	Tablas y filas	Documentos JSON
-Integridad referencial	Sí (Claves primarias y foráneas)	No (Datos no estructurados)
-Flexibilidad	Más rígido, requiere esquema definido	Más flexible, permite datos dinámicos
-Consulta de datos	SQL (SELECT, INSERT, UPDATE)	BSON (find, insert, update)
-Rendimiento	Mejor para transacciones complejas	Mejor para grandes volúmenes de datos
-📌 ¿Cuál elegir?
-Usa MySQL si necesitas estructura y relaciones claras entre datos.
 
-Usa MongoDB si necesitas flexibilidad y escalabilidad.
-
-🔄 Migración de MongoDB a MySQL
-Si ya tienes datos en MongoDB y quieres migrarlos a MySQL, puedes hacerlo con un script en Python:
-
-python
-Copiar
-Editar
 import mysql.connector
 from pymongo import MongoClient
 
@@ -175,8 +140,10 @@ mysql_cursor.close()
 mysql_conn.close()
 Este script copia los datos de MongoDB a MySQL automáticamente.
 
+
 📄 Licencia
-Este proyecto está bajo la licencia MIT, lo que significa que puedes modificarlo y distribuirlo libremente.
+Que lo use el que quiera, yo contento porque al fin me dio esa vaina
+
 
 📞 Contacto: Kilo Kilito Kilogramo Kilovatio 3163898004
 Si tienes dudas o sugerencias, puedes contactarme en:
