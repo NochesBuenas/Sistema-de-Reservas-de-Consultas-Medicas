@@ -6,7 +6,7 @@ Este es un sistema de gestión de citas médicas que permite crear, leer, actual
 ![image](https://github.com/user-attachments/assets/15de9386-d331-4946-88e6-40d057a59273)
 
 
-🚀 Características del Proyecto
+🚀 Características del Proyecto.
 ✅ Registrar nuevas citas médicas.
 ✅ Editar la información de las citas.
 ✅ Eliminar citas de la base de datos.
