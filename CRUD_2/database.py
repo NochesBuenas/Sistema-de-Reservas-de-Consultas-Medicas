@@ -6,7 +6,7 @@ def dbConnection():
             host="localhost",       # O la IP del servidor MySQL
             user="root",      # Usuario de MySQL
             password="",  # Contraseña de MySQL
-            database="citasmedicas"
+            database="citasmedicas" #Hola como estan 
         )
         return connection
     except mysql.connector.Error as err:
